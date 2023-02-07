@@ -1,0 +1,11 @@
+class Freshjuice {
+enum Freshjuice size{ SMALL,MEDIUM,LARGE}
+Freshjuice size size;
+} 
+public class Freshjuice test{
+public static voidmain (String args[]){
+Freshjuice juice=new Freshjuice();
+juice.size=Freshjuice.Freshjuicesize.MEDIUM;
+system.out.println("size:"+juice.size);
+}
+}
